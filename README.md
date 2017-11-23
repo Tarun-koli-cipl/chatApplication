@@ -9,6 +9,10 @@ What things you need to install the software and how to install them.
 Install NPM (Node Package Manager)
 
 Running the tests
-Open your command promt and got to project directory(chat-application) after that run command in your terminal
+Open your command promt and run command in terminal
+npm install 
+
+then go to project directory after that run command in terminal
 ng serve
+
 after server start then open link:- localhost:4200 in your browser.
