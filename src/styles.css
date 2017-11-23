@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+a {
+    cursor: pointer;
+}
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.jumbotron {
+    height: 100%;
+    background: #34495e;
+    margin: 0;
+}
+.jumbotron h1 {
+    font-size: 30px;
+}
+.jumbotron p {
+    font-size: 16px;
+}
+.btn-link {
+    color: #ffffff;
+}
+p a {
+    color: #ffffff;
+}
+.chat-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.chat-list li {
+    background: #1eb9bd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.chat-list li:after {
+    content: '';
+    position: absolute;
+    border-left: 10px solid #1eb9bd;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: -7px;
+    top: 7px;
+}
+article {
+    position: relative;
+    height: 78vh;
+}

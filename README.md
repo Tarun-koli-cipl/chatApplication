@@ -1,5 +1,3 @@
-# chatApplication
-
 Project Title
 Chat View locally 
 
